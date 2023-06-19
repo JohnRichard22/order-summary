@@ -1,0 +1,126 @@
+html{
+    background-color:rgb(197, 222, 238);
+}
+
+  .container{
+    display: flex;
+    height: 300px; width: 400px;
+    margin: 0px auto;
+   justify-content: center;
+}
+
+
+.border-box2{
+    height: 24rem; width: 500px;
+    background-color:rgb(255, 255, 255);
+    margin: 0px auto;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: center;
+}
+
+#img1{
+    position: absolute;
+    order: -1;
+    z-index: 0;
+    width: 500px; height: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+ 
+#img2{
+    position: absolute;
+    order: 1;
+    z-index: 0;
+    height: 250px;
+    margin-top: 50px; 
+} 
+
+#img4{
+    position: absolute;
+    order: -1;
+    z-index: 0;
+    height: 300px; width: 450px;
+    margin-top: 0px;
+    
+} 
+ h1{
+    padding-top: 20px;
+    margin: 0px auto ;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+ }
+ 
+ h2{
+    margin-top: 0px;
+    text-align: center;
+    font-weight: 400;
+    color: grey;
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+
+.Annual{
+    background-color: rgb(235, 233, 233);
+    width: 400px; height: 75px;
+    margin-left: 50px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 30px ;
+}
+ 
+.id{
+    margin-left: 120px;
+   padding-top: 20px;
+}
+ p1{
+    font-weight: 800;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ p2{
+    color: grey;
+    font-weight: bold;
+    font-size:small;
+ }
+
+ p3{
+   font-weight: 700;
+    
+    }
+
+u{
+    padding-left: 150px;
+    color:rgb(129, 29, 223);
+ 
+}
+
+#img3{
+    position: absolute;
+    order: 1;
+    z-index: 0;
+    height: 30px;
+    margin-top: 25px ; margin-left: 55px;
+    
+}
+
+
+button{
+    margin-top: 30px;
+    width: 400px; height: 40px;
+    background-color: rgb(87, 19, 150);
+    border-radius: 10px 10px 10px 10px;
+    cursor: grab;
+    color: white;
+    box-shadow: 7px 7px 5px rgb(159, 104, 211);;
+   
+}
+
+h6{
+    margin-top: 20px;
+    font-weight: lighter;
+    color: grey;
+    font-size:small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+   
+}
